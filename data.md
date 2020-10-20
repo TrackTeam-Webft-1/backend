@@ -1,0 +1,1 @@
+let users = [ { username: '', password: '', email: '', id: integer, location: '', posts: [ { email: '', title: '', contents: '', } ] }, ]

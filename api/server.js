@@ -23,7 +23,7 @@ server.get("/", (req, res) => {
 server.use("/api/auth", authRouter);
 
 // require token to enter through authenticate middleware
-server.use("/api/users", authenticate, usersRouter);
-server.use("/api/posts", authenticate, postsRouter);
+server.use("/api/users", usersRouter);
+server.use("/api/posts", postsRouter);
 
 module.exports = server
