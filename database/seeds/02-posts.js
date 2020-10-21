@@ -5,13 +5,15 @@ exports.seed = function(knex, Promise) {
             title: 'First VR Pitch',
             contents: 'Hope you like this idea!',
             donations:'$1000',
-            users_id: 1
+            users_id: 1,
+            project_id: 2
         },
         {
             email: 'lmao@lmao.com',
             title: 'Second VR Pitch',
             contents: 'What about this one?',
             donations:'$2000',
+            users_id: 2,
             project_id: 2
         },
         {
@@ -19,6 +21,7 @@ exports.seed = function(knex, Promise) {
             title: 'Third VR Pitch',
             contents: 'Ok, maybe this one?',
             donations:'$3000',
+            users_id: 1,
             project_id: 3
         },
         {
@@ -26,6 +29,7 @@ exports.seed = function(knex, Promise) {
             title: `Fourth VR Pitch`,
             contents: 'Definitely this.',
             donations:'$4000',
+            users_id: 2,
             project_id: 4
         },
         {
@@ -33,6 +37,7 @@ exports.seed = function(knex, Promise) {
             title: `Fifth VR Pitch`,
             contents: 'Man, this might not be the best idea.',
             donations:'$5000',
+            users_id: 1,
             project_id: 1
         },
 

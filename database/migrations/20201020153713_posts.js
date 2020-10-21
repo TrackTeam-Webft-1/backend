@@ -8,6 +8,10 @@ exports.up = function (knex) {
       posts
       .integer("project_id")
       .unsigned()
+      .notNullable();
+      posts
+      .integer("users_id")
+      .unsigned()
       .notNullable()
       .references("id");
     });
