@@ -12,28 +12,28 @@ exports.seed = function(knex, Promise) {
             title: 'Second VR Pitch',
             contents: 'What about this one?',
             donations:'$2000',
-            users_id: 2
+            project_id: 2
         },
         {
             email: 'rofl@rofl.com',
             title: 'Third VR Pitch',
             contents: 'Ok, maybe this one?',
             donations:'$3000',
-            users_id: 3
+            project_id: 3
         },
         {
             email: 'idk@idk.com',
             title: `Fourth VR Pitch`,
             contents: 'Definitely this.',
             donations:'$4000',
-            users_id: 4
+            project_id: 4
         },
         {
             email: 'bob@bob.com',
             title: `Fifth VR Pitch`,
             contents: 'Man, this might not be the best idea.',
             donations:'$5000',
-            users_id: 1
+            project_id: 1
         },
 
     ])

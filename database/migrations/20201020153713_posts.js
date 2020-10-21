@@ -6,10 +6,10 @@ exports.up = function (knex) {
       posts.string("contents", 5000).notNullable();
       posts.string("donations", 10).notNullable();
       posts
-        .integer("project_id")
-        .unsigned()
-        .notNullable()
-        .references("id")
+      .integer("project_id")
+      .unsigned()
+      .notNullable()
+      .references("id");
     });
   };
   
